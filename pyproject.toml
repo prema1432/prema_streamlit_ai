@@ -6,11 +6,18 @@ authors = ["Premanath Talamarla"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "3.10"
 streamlit = "^1.35.0"
 langchain = "^0.2.5"
 pypdf2 = "^3.0.1"
-
+langchain-chroma = "^0.1.1"
+langchain-community = "^0.2.5"
+langchain-core = "^0.2.8"
+langchain-openai = "^0.1.8"
+torch = "^1.11.0"
+sentence-transformers = "^3.0.1"
+langchain-huggingface = "^0.0.3"
+watchdog = "^4.0.1"
 
 [build-system]
 requires = ["poetry-core"]
