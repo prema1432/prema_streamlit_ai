@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "prema-streamlit-ai"
+version = "0.1.0"
+description = ""
+authors = ["Premanath Talamarla"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.35.0"
+langchain = "^0.2.5"
+pypdf2 = "^3.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
